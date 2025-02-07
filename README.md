@@ -9,4 +9,5 @@ El día de hoy de 5 de Febrero de 2025 se agregaron los archivos base para comen
 <br>
 Se agrego el array de lista de amigos en apps.js
 <br>
-
+Se agrego la función de agregaAmigo
+<br>
