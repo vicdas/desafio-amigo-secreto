@@ -10,6 +10,19 @@ function agregarAmigo() {
   } else {
     listaDeAmigos.push(nombreDelAmigo);
     document.getElementById("amigo").value = "";
+    imprimeLista();
   }
   console.log(listaDeAmigos);
+}
+
+function imprimeLista() {
+    let lista = document.getElementById("listaAmigos");
+    //Limpia la lista a mostrar
+    lista.innerHTML = "";
+    //Recorre el arreglo de la lista de amigos a mostrar
+    listaDeAmigos.forEach(amigo => {
+        let li = document.createElement("li");
+        li.textContent = amigo;
+        lista.appendChild(li);
+    });
 }

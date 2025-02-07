@@ -11,3 +11,5 @@ Se agrego el array de lista de amigos en apps.js
 <br>
 Se agrego la función de agregaAmigo
 <br>
+Se agrego la funcion de imprimeLista
+<br>
