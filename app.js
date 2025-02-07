@@ -3,6 +3,9 @@
 let listaDeAmigos = [];
 
 function imprimeLista() {
+    let amigoSorteado = document.getElementById("resultado");
+    //Limpia la lista a mostrar
+    amigoSorteado.innerHTML = "";
     let lista = document.getElementById("listaAmigos");
     //Limpia la lista a mostrar
     lista.innerHTML = "";
@@ -40,5 +43,6 @@ function sortearAmigo() {
     //Limpia la lista a mostrar
     amigoSorteado.innerHTML = "";
     amigoSorteado.textContent = listaDeAmigos[posicionAmigoSorteado];
+    listaDeAmigos = [];
   }
 }
