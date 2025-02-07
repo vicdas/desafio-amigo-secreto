@@ -13,3 +13,4 @@ Se agrego la función de agregaAmigo
 <br>
 Se agrego la funcion de imprimeLista
 <br>
+Se agrego la funcion de sortearAmigo
