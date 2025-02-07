@@ -6,3 +6,7 @@ El día de hoy de 5 de Febrero de 2025 se agregaron los archivos base para comen
         assets/
         index.html
         style.css
+<br>
+Se agrego el array de lista de amigos en apps.js
+<br>
+
